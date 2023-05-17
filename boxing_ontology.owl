@@ -1,0 +1,1393 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/uran_/ontologies/2023/3/boxing-ontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/uran_/ontologies/2023/3/boxing-ontology">
+    <Prefix name="" IRI="http://www.semanticweb.org/uran_/ontologies/2023/3/untitled-ontology-32"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Amatuer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Awards"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blocking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BobbingAndWeaving"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BooksAndMagazines"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boxer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boxing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clinching"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coache"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Competitions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConcussionsAndBrainHealth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CornerSupplies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cross"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cutman"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Defense"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DopingAndDrugTesting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Equipment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Evolution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FamousBoxers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FighterOfYear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Footwork"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FoulsAndPenalties"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gloves"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HallOfFame"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HandWraps"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Headgear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HealthAndSafety"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#History"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hook"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InjuryPrevention"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InjuryTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jab"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Judge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KnockoutOfYear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LifetimeAchievement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MentalPreparation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mouthguars"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MoviesAndDocumentaries"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NotableEvents"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NutritionAndDiet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OlympicBoxing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganizationsAndAssociations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Origins"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Participants"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PhysicalConditioning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PopularCultureAndMedia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Professional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Promoter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProtectiveGear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Punches"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Referee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RegionalAndNationalTitles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RingsAndVenueRequirements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RoundsAndTime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RulesAndRegulations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ScoringSystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shoes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SkillDevelopment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Slipping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SocialMediaAndInfluencers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StrategyAndTactics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Techniques"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TrainingAndConditioning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Uppercut"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VideoGames"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WeightClassTitles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WeightClasses"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WorldChampionships"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#affects"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#areUsedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#competesIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#features"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCoach"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLoser"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMember"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPromoter"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasWinner"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasWonTitle"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isAbout"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isAwardedTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isGivenBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isJudgedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isMemeberOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isOfficiatedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isRequiredBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isTrainedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isUsedByBoxer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#regulatesCompetition"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#abbreviation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#age"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#amatuerRecord"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#awardName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#awardYear"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#category"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#competitionName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#creator"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#date"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#dateOfBirth"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#description"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#draws"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#duration"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#equipmentName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#equipmentUsed"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#equipmentWeight"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#eventYear"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#foundingYear"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#gender"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#headquarters"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#height"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#knockouts"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#level"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#location"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#loser"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#losses"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#manufacturer"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#material"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#mediaTitle"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#mediaType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nationality"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#organizationName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#prevention"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#professionalRecord"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#reach"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#reason"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#recipient"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#regulationName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#releaseYear"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#safetyIssue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#size"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#source"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#stance"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#techniqueName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#trainingMethodName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#treatment"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#type"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#weight"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#weightClass"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#winner"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#wins"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Amatuer"/>
+        <Class IRI="#Competitions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Awards"/>
+        <Class IRI="#Boxing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blocking"/>
+        <Class IRI="#Defense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BobbingAndWeaving"/>
+        <Class IRI="#Defense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BooksAndMagazines"/>
+        <Class IRI="#PopularCultureAndMedia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boxer"/>
+        <Class IRI="#Participants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clinching"/>
+        <Class IRI="#Defense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coache"/>
+        <Class IRI="#Participants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Competitions"/>
+        <Class IRI="#Boxing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ConcussionsAndBrainHealth"/>
+        <Class IRI="#HealthAndSafety"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CornerSupplies"/>
+        <Class IRI="#Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cross"/>
+        <Class IRI="#Punches"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cutman"/>
+        <Class IRI="#Participants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Defense"/>
+        <Class IRI="#Techniques"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DopingAndDrugTesting"/>
+        <Class IRI="#HealthAndSafety"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Equipment"/>
+        <Class IRI="#Boxing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Evolution"/>
+        <Class IRI="#History"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FamousBoxers"/>
+        <Class IRI="#History"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FighterOfYear"/>
+        <Class IRI="#Awards"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Footwork"/>
+        <Class IRI="#Techniques"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FoulsAndPenalties"/>
+        <Class IRI="#RulesAndRegulations"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gloves"/>
+        <Class IRI="#ProtectiveGear"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HallOfFame"/>
+        <Class IRI="#Awards"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HandWraps"/>
+        <Class IRI="#ProtectiveGear"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Headgear"/>
+        <Class IRI="#ProtectiveGear"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HealthAndSafety"/>
+        <Class IRI="#Boxing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#History"/>
+        <Class IRI="#Boxing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hook"/>
+        <Class IRI="#Punches"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InjuryPrevention"/>
+        <Class IRI="#HealthAndSafety"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InjuryTreatment"/>
+        <Class IRI="#HealthAndSafety"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jab"/>
+        <Class IRI="#Punches"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Judge"/>
+        <Class IRI="#Participants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KnockoutOfYear"/>
+        <Class IRI="#Awards"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LifetimeAchievement"/>
+        <Class IRI="#Awards"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MentalPreparation"/>
+        <Class IRI="#TrainingAndConditioning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mouthguars"/>
+        <Class IRI="#ProtectiveGear"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MoviesAndDocumentaries"/>
+        <Class IRI="#PopularCultureAndMedia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NotableEvents"/>
+        <Class IRI="#History"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NutritionAndDiet"/>
+        <Class IRI="#TrainingAndConditioning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OlympicBoxing"/>
+        <Class IRI="#Competitions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganizationsAndAssociations"/>
+        <Class IRI="#Boxing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Origins"/>
+        <Class IRI="#History"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Participants"/>
+        <Class IRI="#Boxing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PhysicalConditioning"/>
+        <Class IRI="#TrainingAndConditioning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PopularCultureAndMedia"/>
+        <Class IRI="#Boxing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Professional"/>
+        <Class IRI="#Competitions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Promoter"/>
+        <Class IRI="#Participants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProtectiveGear"/>
+        <Class IRI="#Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Punches"/>
+        <Class IRI="#Techniques"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Referee"/>
+        <Class IRI="#Participants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RegionalAndNationalTitles"/>
+        <Class IRI="#Competitions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RingsAndVenueRequirements"/>
+        <Class IRI="#RulesAndRegulations"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RoundsAndTime"/>
+        <Class IRI="#RulesAndRegulations"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RulesAndRegulations"/>
+        <Class IRI="#Boxing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ScoringSystem"/>
+        <Class IRI="#RulesAndRegulations"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shoes"/>
+        <Class IRI="#Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SkillDevelopment"/>
+        <Class IRI="#TrainingAndConditioning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Slipping"/>
+        <Class IRI="#Defense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SocialMediaAndInfluencers"/>
+        <Class IRI="#PopularCultureAndMedia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StrategyAndTactics"/>
+        <Class IRI="#Techniques"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Techniques"/>
+        <Class IRI="#Boxing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TrainingAndConditioning"/>
+        <Class IRI="#Boxing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Uppercut"/>
+        <Class IRI="#Punches"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VideoGames"/>
+        <Class IRI="#PopularCultureAndMedia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WeightClassTitles"/>
+        <Class IRI="#Competitions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WeightClasses"/>
+        <Class IRI="#RulesAndRegulations"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WorldChampionships"/>
+        <Class IRI="#Competitions"/>
+    </SubClassOf>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasCoach"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasLoser"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasPromoter"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasWinner"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#isOfficiatedBy"/>
+    </FunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#areUsedBy"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#competesIn"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#isAwardedTo"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#isGivenBy"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#isMemeberOf"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#isRequiredBy"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#isTrainedBy"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#isUsedByBoxer"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#regulatesCompetition"/>
+    </InverseFunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#affects"/>
+        <Class IRI="#HealthAndSafety"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#areUsedBy"/>
+        <Class IRI="#Techniques"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#competesIn"/>
+        <Class IRI="#Boxer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#features"/>
+        <Class IRI="#PopularCultureAndMedia"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCoach"/>
+        <Class IRI="#Boxer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasLoser"/>
+        <Class IRI="#Competitions"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMember"/>
+        <Class IRI="#OrganizationsAndAssociations"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPromoter"/>
+        <Class IRI="#Boxer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasWinner"/>
+        <Class IRI="#Competitions"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasWonTitle"/>
+        <Class IRI="#Boxer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isAbout"/>
+        <Class IRI="#MoviesAndDocumentaries"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isAwardedTo"/>
+        <Class IRI="#Awards"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isGivenBy"/>
+        <Class IRI="#Awards"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isJudgedBy"/>
+        <Class IRI="#Competitions"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isMemeberOf"/>
+        <Class IRI="#Boxer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isOfficiatedBy"/>
+        <Class IRI="#Competitions"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRequiredBy"/>
+        <Class IRI="#Equipment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isTrainedBy"/>
+        <Class IRI="#TrainingAndConditioning"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isUsedByBoxer"/>
+        <Class IRI="#TrainingAndConditioning"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#regulatesCompetition"/>
+        <Class IRI="#OrganizationsAndAssociations"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#affects"/>
+        <Class IRI="#Boxer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#areUsedBy"/>
+        <Class IRI="#Boxer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#competesIn"/>
+        <Class IRI="#Competitions"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#features"/>
+        <Class IRI="#Boxer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCoach"/>
+        <Class IRI="#Coache"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasLoser"/>
+        <Class IRI="#Boxer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMember"/>
+        <Class IRI="#Boxer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPromoter"/>
+        <Class IRI="#Promoter"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasWinner"/>
+        <Class IRI="#Boxer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasWonTitle"/>
+        <Class IRI="#Awards"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isAbout"/>
+        <Class IRI="#Boxer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isAwardedTo"/>
+        <Class IRI="#OrganizationsAndAssociations"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isGivenBy"/>
+        <Class IRI="#OrganizationsAndAssociations"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isJudgedBy"/>
+        <Class IRI="#Judge"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isMemeberOf"/>
+        <Class IRI="#OrganizationsAndAssociations"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isOfficiatedBy"/>
+        <Class IRI="#Referee"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRequiredBy"/>
+        <Class IRI="#RulesAndRegulations"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isTrainedBy"/>
+        <Class IRI="#Coache"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isUsedByBoxer"/>
+        <Class IRI="#Boxer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#regulatesCompetition"/>
+        <Class IRI="#Competitions"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#abbreviation"/>
+        <Class IRI="#OrganizationsAndAssociations"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#age"/>
+        <Class IRI="#Participants"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#amatuerRecord"/>
+        <Class IRI="#Boxer"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#awardName"/>
+        <Class IRI="#Awards"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#awardYear"/>
+        <Class IRI="#Awards"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#category"/>
+        <Class IRI="#Awards"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#competitionName"/>
+        <Class IRI="#Competitions"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#creator"/>
+        <Class IRI="#PopularCultureAndMedia"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#date"/>
+        <Class IRI="#Competitions"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#dateOfBirth"/>
+        <Class IRI="#Participants"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#description"/>
+        <Class IRI="#RulesAndRegulations"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#draws"/>
+        <Class IRI="#Boxer"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#duration"/>
+        <Class IRI="#TrainingAndConditioning"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#equipmentName"/>
+        <Class IRI="#Equipment"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#equipmentUsed"/>
+        <Class IRI="#TrainingAndConditioning"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#equipmentWeight"/>
+        <Class IRI="#Equipment"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#eventYear"/>
+        <Class IRI="#History"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#foundingYear"/>
+        <Class IRI="#OrganizationsAndAssociations"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#gender"/>
+        <Class IRI="#Participants"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#headquarters"/>
+        <Class IRI="#OrganizationsAndAssociations"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#height"/>
+        <Class IRI="#Boxer"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#knockouts"/>
+        <Class IRI="#Boxer"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#level"/>
+        <Class IRI="#Competitions"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#location"/>
+        <Class IRI="#Competitions"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#loser"/>
+        <Class IRI="#Competitions"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#losses"/>
+        <Class IRI="#Boxer"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#manufacturer"/>
+        <Class IRI="#Equipment"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#material"/>
+        <Class IRI="#Equipment"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#mediaTitle"/>
+        <Class IRI="#PopularCultureAndMedia"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#mediaType"/>
+        <Class IRI="#PopularCultureAndMedia"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class IRI="#Participants"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nationality"/>
+        <Class IRI="#Participants"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#organizationName"/>
+        <Class IRI="#OrganizationsAndAssociations"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#prevention"/>
+        <Class IRI="#HealthAndSafety"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#professionalRecord"/>
+        <Class IRI="#Boxer"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#reach"/>
+        <Class IRI="#Boxer"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#reason"/>
+        <Class IRI="#Awards"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#recipient"/>
+        <Class IRI="#Awards"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#regulationName"/>
+        <Class IRI="#RulesAndRegulations"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#releaseYear"/>
+        <Class IRI="#PopularCultureAndMedia"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#safetyIssue"/>
+        <Class IRI="#HealthAndSafety"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#size"/>
+        <Class IRI="#Equipment"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#source"/>
+        <Class IRI="#RulesAndRegulations"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#stance"/>
+        <Class IRI="#Boxer"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#techniqueName"/>
+        <Class IRI="#Techniques"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#trainingMethodName"/>
+        <Class IRI="#TrainingAndConditioning"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#treatment"/>
+        <Class IRI="#HealthAndSafety"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#type"/>
+        <Class IRI="#Techniques"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#weight"/>
+        <Class IRI="#Boxer"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#weightClass"/>
+        <Class IRI="#Boxer"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#winner"/>
+        <Class IRI="#Competitions"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#wins"/>
+        <Class IRI="#Boxer"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#abbreviation"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#age"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#amatuerRecord"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#awardName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#awardYear"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#category"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#competitionName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#creator"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#date"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#dateOfBirth"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#description"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#draws"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#duration"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#equipmentName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#equipmentUsed"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#equipmentWeight"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#eventYear"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#foundingYear"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#gender"/>
+        <DataOneOf>
+            <Literal>Female</Literal>
+            <Literal>Male</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#headquarters"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#height"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#knockouts"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#level"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#location"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#loser"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#losses"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#manufacturer"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#material"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#mediaTitle"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#mediaType"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nationality"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#organizationName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#prevention"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#professionalRecord"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#reach"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#reason"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#recipient"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#regulationName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#releaseYear"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#safetyIssue"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#size"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#source"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#stance"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#techniqueName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#trainingMethodName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#treatment"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#type"/>
+        <DataOneOf>
+            <Literal>Defense</Literal>
+            <Literal>Footwork</Literal>
+            <Literal>Offense</Literal>
+            <Literal>Strategy</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#weight"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#weightClass"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#winner"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#wins"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S2</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Boxer"/>
+                <Variable IRI="http://www.semanticweb.org/uran_/ontologies/2023/3/untitled-ontology-32#s"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
+                <Variable IRI="http://www.semanticweb.org/uran_/ontologies/2023/3/untitled-ontology-32#s"/>
+            </BuiltInAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S1</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasCoach"/>
+                <Variable IRI="http://www.semanticweb.org/uran_/ontologies/2023/3/untitled-ontology-32#x"/>
+                <Variable IRI="http://www.semanticweb.org/uran_/ontologies/2023/3/untitled-ontology-32#y"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Boxer"/>
+                <Variable IRI="http://www.semanticweb.org/uran_/ontologies/2023/3/untitled-ontology-32#x"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#Coache"/>
+                <Variable IRI="http://www.semanticweb.org/uran_/ontologies/2023/3/untitled-ontology-32#x"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
