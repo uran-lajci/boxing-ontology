@@ -1,0 +1,1 @@
+{"Collections":[{"sheetName":"Sheet1","startColumn":"A","endColumn":"L","startRow":"1","endRow":"1000","comment":"","rule":"Individual: @A*\nTypes: Professional_Boxer\nFacts: fullName @B*, nrOfWins @C*, nrOfDraws @D*, nrOfLosses @E*, nationality @F*, gender @G*, age @H*, reach @I*, height @J*, division @K*, residence @L*","active":true}]}
