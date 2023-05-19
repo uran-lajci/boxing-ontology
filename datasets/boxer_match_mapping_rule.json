@@ -1,1 +1,1 @@
-{"Collections":[{"sheetName":"Sheet1","startColumn":"A","endColumn":"H","startRow":"1","endRow":"1000","comment":"","rule":"Individual: @A*\nTypes: Boxing_Match\nFacts: date @B*, result @C*, firstBoxer @D*, secondBoxer @E*, venue @F*, city @G*, country @H*","active":true}]}
+{"Collections":[{"sheetName":"Sheet1","startColumn":"A","endColumn":"H","startRow":"1","endRow":"1000","comment":"","rule":"Individual: @A*\nTypes: Boxing_Match\nFacts: date @B*(xsd:dateTime), result @C*, firstBoxer @D*, secondBoxer @E*, venue @F*, city @G*, country @H*","active":true}]}
